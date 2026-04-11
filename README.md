@@ -32,10 +32,10 @@ I am an engineer based in Sahiwal, Pakistan, specializing in the orchestration o
 ---
 
 ### 📊 GitHub Stats
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=your-github-username&show_icons=true&theme=radical)
+[![Rayan's GitHub stats](https://github-readme-stats.vercel.app/api?username=RayanBabar)](https://github.com/anuraghazra/github-readme-stats)
 
 ---
 
 ### 📫 Let's Connect
-* **LinkedIn:** [Insert your LinkedIn URL]
-* **Email:** [Insert your professional email address]
+* **LinkedIn:** [Rayan Babur](https://www.linkedin.com/in/rayan-babur-7a1686252/)
+* **Email:** alrayanbabur@gmail.com
