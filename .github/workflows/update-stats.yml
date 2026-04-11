@@ -28,7 +28,7 @@ jobs:
         uses: soulteary/github-readme-stats-action@v1.0.0
         with:
           card: top-langs
-          options: 'username=${{ github.repository_owner }}&layout=donut&theme=radical'
+          options: 'username=${{ github.repository_owner }}&layout=compact&theme=radical'
           path: profile/top-langs.svg
           token: ${{ secrets.PAT }}
           # Same as above, change to secrets.PAT if you want to include private repos
