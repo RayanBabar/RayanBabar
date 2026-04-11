@@ -2,7 +2,7 @@ name: Update README Stats Cards
 on:
   schedule:
     - cron: "0 0 * * *" # Runs automatically once daily at midnight
-  workflow_dispatch: # Allows you to trigger the run manually from the Actions tab
+  workflow_dispatch: # Allows you to trigger the run manually
 
 jobs:
   build:
@@ -12,18 +12,32 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate Stats Card
+      # 1. Generate the main stats card with all extra metrics enabled
+      - name: Generate Comprehensive Stats Card
         uses: soulteary/github-readme-stats-action@v1.0.0
         with:
           card: stats
-          options: 'username=${{ github.repository_owner }}&show_icons=true&theme=radical'
+          options: 'username=${{ github.repository_owner }}&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&show_icons=true&include_all_commits=true&theme=radical'
           path: profile/stats.svg
           token: ${{ secrets.PAT }}
+          # NOTE: To include private repo stats, replace the above line with: 
+          # token: ${{ secrets.PAT }} (Ensure you have added 'PAT' to your repository secrets)
 
+      # 2. Generate the top languages card
+      - name: Generate Top Languages Card
+        uses: soulteary/github-readme-stats-action@v1.0.0
+        with:
+          card: top-langs
+          options: 'username=${{ github.repository_owner }}&layout=compact&theme=radical'
+          path: profile/top-langs.svg
+          token: ${{ secrets.PAT }}
+          # Same as above, change to secrets.PAT if you want to include private repos
+
+      # 3. Commit both files back to the repository
       - name: Commit and Push
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add profile/stats.svg
-          git commit -m "Update stats card" || exit 0
+          git add profile/stats.svg profile/top-langs.svg
+          git commit -m "Update GitHub stats and top languages cards" || exit 0
           git push
