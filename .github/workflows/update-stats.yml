@@ -17,7 +17,7 @@ jobs:
         uses: soulteary/github-readme-stats-action@v1.0.0
         with:
           card: stats
-          options: 'username=${{ github.repository_owner }}&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&show_icons=true&include_all_commits=true&theme=radical'
+          options: 'username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&theme=radical'
           path: profile/stats.svg
           token: ${{ secrets.PAT }}
           # NOTE: To include private repo stats, replace the above line with: 
@@ -28,7 +28,7 @@ jobs:
         uses: soulteary/github-readme-stats-action@v1.0.0
         with:
           card: top-langs
-          options: 'username=${{ github.repository_owner }}&layout=compact&theme=radical'
+          options: 'username=${{ github.repository_owner }}&layout=pie&theme=radical'
           path: profile/top-langs.svg
           token: ${{ secrets.PAT }}
           # Same as above, change to secrets.PAT if you want to include private repos
