@@ -193,7 +193,7 @@ class RayanBabur:
 
 <div align="center">
 
-![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=RayanBabar&theme=radical)
+![Most Commit Language](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=RayanBabar&theme=radical)
 &nbsp;
 ![Productive Time](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=RayanBabar&theme=radical&utcOffset=5)
 
