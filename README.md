@@ -183,11 +183,19 @@ class RayanBabur:
 
 ---
 
-## 🏆 GitHub Trophies
+## 🏆 Highlights
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=RayanBabar&theme=radical&no-frame=true&no-bg=true&margin-w=6&row=1)](https://github.com/ryo-ma/github-profile-trophy)
+![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=RayanBabar&theme=radical)
+
+</div>
+
+<div align="center">
+
+![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=RayanBabar&theme=radical)
+&nbsp;
+![Productive Time](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=RayanBabar&theme=radical&utcOffset=5)
 
 </div>
 
