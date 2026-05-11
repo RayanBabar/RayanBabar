@@ -160,7 +160,7 @@
           data-testid="lang-progress"
           x="0.00"
           y="0"
-          width="141.65"
+          width="141.61"
           height="8"
           fill="#3572A5"
         />
@@ -168,9 +168,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="141.65"
+          x="141.61"
           y="0"
-          width="60.86"
+          width="60.78"
           height="8"
           fill="#3178c6"
         />
@@ -178,9 +178,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="202.50"
+          x="202.40"
           y="0"
-          width="25.95"
+          width="26.09"
           height="8"
           fill="#00B4AB"
         />
@@ -188,9 +188,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="228.46"
+          x="228.48"
           y="0"
-          width="19.22"
+          width="19.20"
           height="8"
           fill="#e34c26"
         />
@@ -208,9 +208,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="249.15"
+          x="249.16"
           y="0"
-          width="10.85"
+          width="10.84"
           height="8"
           fill="#DA5B0B"
         />
@@ -220,22 +220,22 @@
     <g transform="translate(0, 0)"><g transform="translate(0, 0)">
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#3572A5" />
-      <text data-testid="lang-name" x="15" y="10" class="lang-name">Python 56.66%</text>
+      <text data-testid="lang-name" x="15" y="10" class="lang-name">Python 56.65%</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#3178c6" />
-      <text data-testid="lang-name" x="15" y="10" class="lang-name">TypeScript 24.34%</text>
+      <text data-testid="lang-name" x="15" y="10" class="lang-name">TypeScript 24.31%</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#00B4AB" />
-      <text data-testid="lang-name" x="15" y="10" class="lang-name">Dart 10.38%</text>
+      <text data-testid="lang-name" x="15" y="10" class="lang-name">Dart 10.43%</text>
     </g>
   </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
     <g class="stagger" style="animation-delay: 900ms">
       <circle cx="5" cy="6" r="5" fill="#e34c26" />
-      <text data-testid="lang-name" x="15" y="10" class="lang-name">HTML 7.69%</text>
+      <text data-testid="lang-name" x="15" y="10" class="lang-name">HTML 7.68%</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 1050ms">
